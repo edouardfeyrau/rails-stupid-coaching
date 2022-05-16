@@ -1,0 +1,17 @@
+<h2>Are you going to work ?</h2>
+
+<div class="container d-flex align-items-center">
+<div class="answer">
+<p><%= @myanswer %></p>
+<p><i>-You</i></p>
+</div>
+</div>
+
+<div class="container d-flex align-items-center">
+<div class="answer" id="coachanswer">
+<p><strong><%= @coachanswer %></strong></p>
+<p><i>-Your coach</i></p>
+</div>
+</div>
+
+<%= link_to 'ask a new question', '/ask' %>
